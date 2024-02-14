@@ -12,6 +12,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.img-responsive
+{
+    max-width: auto;
+    height: auto;
+
+
+}
 
 .ribbon {
     height: 12px;
