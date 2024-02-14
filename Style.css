@@ -12,20 +12,3 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-responsive
-{
-    max-width: auto;
-    height: auto;
-
-
-}
-
-.ribbon {
-    height: 12px;
-    background-color: #1E261F;
-}
-
-#content {
-    background-color: #616161;
-    margin: 15px 20%;
-}
