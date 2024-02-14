@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 5px;
+}
+
+/** https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar **/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.img-responsive
+{
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: #5E6B6A;
+}
+
+.navBar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navBar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ribbon {
+    height: 12px;
+    background-color: #1E261F;
+}
+
+#content {
+    background-color: #FFF;
+    margin: 15px 20%;
+}
+
+#footer{
+    display: inline-block;
+    width: 100%;
+    background-color: #5E6B6A;
+    color: #FFF;
+    min-height: 75px;
+}
+
+#footer p a 
+{
+    padding: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#footer p a:hover 
+{
+    color: lightgrey;
+}
