@@ -13,15 +13,6 @@ body {
 }
 
 
-.img-responsive
-{
-    max-width: auto;
-    height: auto;
-
-
-}
-
-
 .ribbon {
     height: 12px;
     background-color: #1E261F;
