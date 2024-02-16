@@ -11,3 +11,12 @@ body {
     background-color: lightslategrey;
 }
 
+div.gallery:hover {
+  border: 1px solid darkgrey;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
