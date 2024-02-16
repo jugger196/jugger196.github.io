@@ -1,3 +1,6 @@
 img {
   border-radius: 25px;
 }
+.aboutme{
+  column-count: 3;
+}
