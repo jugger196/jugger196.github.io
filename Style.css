@@ -13,8 +13,7 @@ body {
 
 div.gallery {
   margin: 3px;
-  float: left;
-  width: 180px;
+  width: 260px;
 }
 
 div.gallery:hover {
