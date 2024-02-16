@@ -6,12 +6,6 @@ img {
   column-count: 3;
 }
 
-.img-responsive
-{
-    max-width: 100%;
-    height: auto;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightslategrey;
