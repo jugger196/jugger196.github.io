@@ -13,6 +13,7 @@ body {
 
 div.gallery {
   margin: 3px;
+  float: center;
   width: 260px;
 }
 
