@@ -2,10 +2,6 @@ img {
   border-radius: 25px;
 }
 
-.aboutme {
-  column-count: 3;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightslategrey;
