@@ -13,6 +13,7 @@ body {
 
 div.gallery:hover {
   border: 1px solid darkgrey;
+  border-radius: 25px;
 }
 
 div.gallery img {
