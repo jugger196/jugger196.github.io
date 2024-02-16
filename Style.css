@@ -1,5 +1,7 @@
 img {
   border-radius: 25px;
+  width="400"
+  height="600"
 }
 
 .aboutme {
@@ -17,7 +19,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: auto;
+  width: 100%;
   height: auto;
 }
 
