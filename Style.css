@@ -1,7 +1,5 @@
 img {
   border-radius: 25px;
-  width="400"
-  height="600"
 }
 
 .aboutme {
@@ -11,6 +9,12 @@ img {
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightslategrey;
+}
+
+div.gallery {
+  margin: 2px;
+  float: left;
+  width: 180px;
 }
 
 div.gallery:hover {
