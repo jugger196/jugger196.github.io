@@ -6,6 +6,10 @@ body {
     background-color: lightslategrey;
 }
 
+div.photo {
+  border: 1px solid darkgrey;
+  border-radius: 25px;
+
 div.gallery {
   border: 1px solid darkgrey;
   border-radius: 25px;
