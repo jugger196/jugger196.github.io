@@ -1,45 +1,132 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Draft Portfolio</title>
-            <h1>Ben Mosher</h1>
-        <p>A digital artist looking to make his mark on the world</p>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<meta name='viewport' content='width=device-width, initial-scale=1' />
-<link rel="stylesheet" href="Style.css">        
-    </head>
-    <body>
-    <hr>
-        <p>About Me</p>
-        
-        <div class="photo">
-        <img src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/Self%20Portrait.jpg" alt="Self Portrait">    
-        </div> 
-    <hr>   
-        <div class="aboutme">My goal is to be able to create content for the conceptial stages of media development. Whether that be something as sketch work or full on digital artwork; I want to be able to express my artistic side to the world and inspire future generations to come.</div>
-    <hr>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-        <div class="gallery">
-        <img src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/Background%20Design.png" alt="Background Design">
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <title>
+    Ben Mosher | A Digital Artist living in Boise, Idaho.
+  </title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <link rel="stylesheet" href="Style.css">        
+</head>
+<body>
+   <header class="header" role="banner" id="top"> 
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Ben Mosher</span>
+        </h1>
+        <p>A Digital Artisit living in Boise, Idaho.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+    
+  <main role="main">
+      
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Portfolio Template</h3>
+              <p>
+                A free Open Source Portfolio for anyone to use for free.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+                <li>Parcel</li>
+              </ul>
+            <div class="work__image-box">
+              <img src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/My%20Logo%20Final.png" alt="My logo" />
+              <img src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/DataMine%20Studios%20Logo%20transparent.png" alt="Game Logo">
             </div>
-            <div class="col-sm">
-        <div class="gallery">
-        <img src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/My%20Logo%20Final.png" alt="My logo">   
-        </div>
-            </div>
-            <div class="col-sm">
-        <div class="gallery">
-        <img src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/DataMine%20Studios%20Logo%20transparent.png" alt="Game Logo">
-        </div> 
-            </div> 
+          </div>                
+            
+    </section>
+            
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+               I am a current student at Boise State University working towards his Bachelors degree
+               in the Gaming.Interactive.Mobile.Media program. Or GIMM for short. I am an artist that 
+               specializes in Concept Artwork, Storyboarding, and Digital Design. I also have experience 
+               with Game development in Unity in both 2D and 3D game platforms. As well as helping create 
+               content in both VR and AR programs.
+            </p>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="https://raw.githubusercontent.com/jugger196/jugger196.github.io/main/images/Self%20Portrait.jpg" alt="" />
           </div>
         </div>
-    <hr>
-        <a href="https://www.wix.com/blog/art-portfolio-website-examples">Portfolio Examples</a>
-        <a href="mailto:benmosher@u.boisestate.edu">Send Email</a>
-    </body>
+      </div>
+    </section>
+  </main>  
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for getting the details down in digital content? to
+          represent your product or business? or want to ask questions? 
+          or have some advice for me? in any case feel free to Let me know. I
+          will do my best to respond back. The quickest way to reach out to
+          me is via an email.
+        </p>
+        <a href="mailto:benmosher@u.boisestate.edu" class="btn">benmosher@u.boisestate.edu</a>
+      </div>
+    </div>
+  </section>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/jugger196/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/ben-mosher-810a722b7/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>              
+              
+</body>
 </html>
